@@ -22,14 +22,13 @@ AirSight leverages two sensory modalities—image and sound—for robust drone c
 AirSight/
 │
 ├── model/
-│   └── fusion_model_tf.pth        # Trained model weights
+│   └── fusion_model.pth           # Trained model weights
 │
 ├── scripts/
 │   └── rt_inference.py            # Real-time inference script
 │
-├── data/                          # Paired image/audio dataset (not included)
+├── data/                          # Paired image/audio dataset
 │
-├── requirements.txt               # Python dependencies
 └── README.md
 ```
 
@@ -87,9 +86,7 @@ Each image-audio pair was labeled as "Drone" or "No Drone".
 ## 💡 Applications
 
 - Perimeter surveillance
-- Wildlife protection
 - Anti-drone defense
-- Smart city monitoring
 
 ---
 
@@ -107,5 +104,5 @@ This project is intended for research and educational purposes. Accuracy and rea
 
 ## 🙋‍♂️ Maintainer
 
-Developed by [Your Name], CFI, IIT Madras  
+Developed by Parikshit Sonwane, IIT Madras  
 Contributions are welcome!
