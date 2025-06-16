@@ -29,6 +29,7 @@ AirSight/
 │
 ├── data/                          # Paired image/audio dataset
 │
+├── requirements.txt               # Python dependencies
 └── README.md
 ```
 
