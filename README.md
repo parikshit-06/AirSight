@@ -29,6 +29,7 @@ AirSight/
 │
 ├── data/                          # Paired image/audio dataset
 │
+├── LICENSE                        # MIT Licensed
 ├── requirements.txt               # Python dependencies
 └── README.md
 ```
